@@ -7,7 +7,7 @@ class Animal {
         if (age > 0) {
             this.age = age;
         } else {
-            throw new IllegalArgumentException("Неправильный возраст животного");
+            throw new IllegalArgumentException("Wrong age");
         }
     }
 
@@ -15,7 +15,7 @@ class Animal {
         if (age > 0) {
             this.age = age;
         } else {
-            throw new IllegalArgumentException("Неправильный возраст животного");
+            throw new IllegalArgumentException("Wrong age");
         }
     }
 
@@ -32,7 +32,7 @@ class Animal {
     }
 
     public void makeSound() {
-        System.out.println("Оно пердит");
+        System.out.println("Its puking");
     }
 }
 
