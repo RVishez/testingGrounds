@@ -9,6 +9,7 @@ class Cat extends Animal {
         System.out.println("Its meowing");
         System.out.println("Its itching");
         System.out.println("few");
+        System.out.println("few");
     }
 
 
