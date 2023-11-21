@@ -8,6 +8,7 @@ class Cat extends Animal {
     public void makeSound() {
         System.out.println("Its meowing");
         System.out.println("Its itching");
+        System.out.println("few");
     }
 
 
